@@ -1,0 +1,103 @@
+/*The tag selector*/
+
+body {
+    background-color: bisque;
+}
+
+/*dimesnions : px , % ,em*/
+/*color : name,#000000,rgb(r,g,b)*/
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*class selector*/
+.circular {
+    border-radius: 100%;
+}
+
+.first_para {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img1 {
+    background-color: black;
+    position: sticky;
+    bottom: 90px;
+    /* margin-top: 40px; 
+    position: relative;
+    top: 100px;*/
+}
+
+.img2 {
+    background-color: black;
+    width: 200px;
+}
+
+/*Id selector*/
+#special {
+    font-weight: bold;
+    background-color: rgb(246, 205, 101);
+
+}
+
+/*Grouping the selector*/
+.ekGroup,
+h1 {
+    background-color: rgb(130, 130, 205);
+}
+
+/*Pseudo selectors*/
+
+.language {
+    color: red;
+}
+
+.language:hover {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+
+/*playing with divs*/
+
+.square100 {
+    height: 100px;
+    width: 100px;
+}
+
+.firstBox {
+    background-color: red;
+}
+
+.secondBox {
+    background-color: green;
+    /* margin-inline-start: 100px; */
+    /* display: none;       will not show */
+    /* visibility: hidden;  will not show but leaving behind its place */
+    position: relative;
+    /* top: -90px; */
+    bottom: 90px;
+    left: 10px;
+}
+
+.thirdBox {
+    background-color: blue;
+    /* margin-inline-start: 20px;  */
+    /* margin-block-start: -200px; */
+    position: relative;
+    /* top: -180px; */
+    bottom: 180px;
+    left: 20px;
+}
+
+
+/*outliners css
+mdn css
+relative position a/c to its parent
+absolute a/c to screen size
+fixed -position fixed to place assigned
+sticky almost similar to fixed*/
