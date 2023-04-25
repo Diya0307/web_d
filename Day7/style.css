@@ -1,0 +1,85 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    /* color: var(--primaryColor); */
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.heading {
+    font-family: var(--myTitleFont);
+    margin: 0;
+    font-size: 90px;
+}
+h2 {
+    font-family: var(--fontDefaultTextFont);
+    margin: 0;
+    font-size: 1.5em;  /* 1em = 16px */
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -75px;
+    margin-left: 330px;
+    width: 150px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 40px;
+    margin-left: -300px;
+    width: 150px;
+}
+
+.mountain{
+    width: 300px;
+}
+.middle_section{
+    margin:50px auto 50px auto;
+    text-align: center;
+    width: 75%;
+    font-size:1.2em;
+}
+.my_image{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius:100px ;
+}
+hr{
+    margin-top:100px ;
+    margin-bottom: 100px;
+    border:dotted 10px var(--backgroundColor);
+    border-bottom:none;
+    width:10%;
+
+}
+.intro{
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+img{
+    margin-bottom:-5px;
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
