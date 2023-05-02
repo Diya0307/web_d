@@ -9,14 +9,47 @@
 
 /* main css */
 
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #2beab1;
+    margin: 40px auto 0px auto;
+    
+   
+}
+.social{
+    padding: 40px 0px;
+    
+}
 body{
     margin: 0px;
     color: var(--primaryColor);
+    line-height: 2;
+    text-align: center;
+}
+.social-links{
+    margin: 0px 40px;
+}
+.copyright{
+    margin: 0;
+    color: white;
+    padding-bottom: 40px;
+    font-size: 1.2em;
+}
+.contact{
+    background-color: var(--backgroundColor);
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.contact:hover{
+    background-color:#198d6a;
+    color: whitesmoke;
 }
 
 .top-section{
     background-color: var(--backgroundColor);
-    /* color: var(--primaryColor); */
     text-align: center;
     padding-top: 100px;
     
@@ -32,6 +65,7 @@ h2 {
     font-size: 1.5em;  /* 1em = 16px */
     padding-bottom: 20px;
     padding-top: 20px;
+    
 }
 .top-cloud{
     position: absolute;
@@ -52,7 +86,7 @@ h2 {
 .middle_section{
     margin:50px auto 50px auto;
     text-align: center;
-    width: 75%;
+    width: 60%;
     font-size:1.2em;
 }
 .my_image{
@@ -71,15 +105,32 @@ hr{
 
 }
 .intro{
-    width: 50%;
+    width: 70%;
     margin: auto;
-    line-height: 1.5;
+    
 }
 img{
     margin-bottom:-5px;
 }
-/* 
-font-family: 'Dancing Script', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif; 
-*/
+.skill-image{
+    width:120px;
+}
+
+.upflair{
+    float: left;
+    margin-right:30px;
+}
+
+.internship{
+    float: right;
+    margin-left: 10px;
+}
+
+.skill-row{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.my-skills{
+    margin-bottom: 70px;
+}
