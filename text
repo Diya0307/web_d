@@ -3,3 +3,18 @@ ipads tablets 481-768
 small screen laptops 769-1024
 desktops large screens 1025-1200
 extra large screens tv 1201 px and more
+
+
+All about javascript
+
+Alert   pop up box with some msg
+Console.log  displays the output
+Prompt    prompt a box with given question
+
+comments just like c
+
+Type of object : 
+1. Window  (alert)
+2. Document  (HTML page ke content ke saath kaam krne ke liye)
+3. Form Data
+4. form elements
