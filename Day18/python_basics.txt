@@ -1,0 +1,18 @@
+OPERATORS -
+    ARITHMETIC  + - * / ** // %
+    RELATIONAL  >, < ,>= ,<= ,== ,!=
+    ASSIGNMENT  =,+=,-=,*=,/=
+    LOGICAL     and , or , not
+    BITWISE     & , | , ~ , ^ , << , >>
+    MEMBERSHIP   in , not in
+    IDENTITY     is , is not
+
+
+DATA TYPES -
+    NUMBERS: int , float , complex
+    STRING: str
+    COLLECTIONS : list , tuple (with or without paranthesis comma ,separated), dict , set
+    BOOLEAN : bool 
+
+
+    python -m pip install django     // installing the  django
